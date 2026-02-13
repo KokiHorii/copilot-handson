@@ -11,7 +11,11 @@
 
 ### 1. アプリケーションの実行
 ```bash
-dotnet run
+# リポジトリ直下から実行する場合
+dotnet run --project sample_app
+
+# このディレクトリ(sample_app)内で実行する場合
+# dotnet run
 ```
 
 ### 2. 使い方
