@@ -1,0 +1,6 @@
+# Build results
+bin/
+obj/
+
+# CSV output files (generated at runtime)
+inspection_results_*.csv
