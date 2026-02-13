@@ -27,6 +27,7 @@ dotnet run --project sample_app
 ## 出力ファイル
 - ファイル名: `inspection_results_YYYYMMDD.csv`
   - 例: `inspection_results_20260212.csv`
+- 保存先: 実行時のカレントディレクトリ（`dotnet run` を実行したディレクトリ。通常はプロジェクトのルートディレクトリ）に作成されます
 - 形式: CSV（日時,設備名,点検結果,コメント）
 - 文字コード: UTF-8
 
